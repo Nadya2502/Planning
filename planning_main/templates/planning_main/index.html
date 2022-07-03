@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        div{
+            padding: 10px;
+        }
+        .div_head{
+        }
+        #div_row{
+            width: 40%;
+        }
+        #div_col{
+            width: 60%;
+        }
+        .table_param{
+            float:left
+        }
+    </style>
+</head>
+<body>
+    <div class="div_head">
+        <a href="">Отчет 1</a>
+        <a href="">Отчет 2</a>
+        <a href="">Отчет 3</a>
+    </div>
+    <div>
+        <div id="context">
+            <table>
+                <tr>
+                    <td>
+                        <label for="exampleDataList" class="form-label">Имя аналитики контекста 1</label>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                        <datalist id="datalistOptions">
+                          <option value="San Francisco">
+                          <option value="New York">
+                          <option value="Seattle">
+                          <option value="Los Angeles">
+                          <option value="Chicago">
+                        </datalist>
+                    </td>
+                    <td>
+                        <label for="exampleDataList" class="form-label">Имя аналитики контекста 2</label>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                        <datalist id="datalistOptions">
+                          <option value="San Francisco">
+                          <option value="New York">
+                          <option value="Seattle">
+                          <option value="Los Angeles">
+                          <option value="Chicago">
+                        </datalist>
+                    </td>
+                    <td>
+
+                        <label for="exampleDataList" class="form-label">Имя аналитики контекста 3</label>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                        <datalist id="datalistOptions">
+                          <option value="San Francisco">
+                          <option value="New York">
+                          <option value="Seattle">
+                          <option value="Los Angeles">
+                          <option value="Chicago">
+                        </datalist>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="div_row" class="table_param">
+            <table>
+                <tr>
+                    <td>
+                        <label for="exampleDataList" class="form-label">Имя аналитики строк 1</label>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                        <datalist id="datalistOptions">
+                          <option value="San Francisco">
+                          <option value="New York">
+                          <option value="Seattle">
+                          <option value="Los Angeles">
+                          <option value="Chicago">
+                        </datalist>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="div_col" class="table_param">
+                        <table>
+                <tr>
+                    <td>
+                        <label for="exampleDataList" class="form-label">Имя аналитики столбцов 1</label>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                        <datalist id="datalistOptions">
+                          <option value="San Francisco">
+                          <option value="New York">
+                          <option value="Seattle">
+                          <option value="Los Angeles">
+                          <option value="Chicago">
+                        </datalist>
+                    </td>
+                    <td>
+                        <label for="exampleDataList" class="form-label">Имя аналитики столбцов 2</label>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                        <datalist id="datalistOptions">
+                          <option value="San Francisco">
+                          <option value="New York">
+                          <option value="Seattle">
+                          <option value="Los Angeles">
+                          <option value="Chicago">
+                        </datalist>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <div>
+            <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
